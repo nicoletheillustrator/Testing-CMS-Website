@@ -11,6 +11,7 @@ collections:
       - label: "About Character"
         name: "character"
         file: "public/data/learning.json"
+        create: true
         fields:
           - {label: Title, name: name, widget: string}
           - {label: Intro, name: age, widget: number}
