@@ -10,7 +10,7 @@ collections:
     files:
       - name: "About-Character"
         label: "About Characters"
-        file: "public/data/learning.json"
+        file: "src/data/learning.json"
         create: true
         fields:
           - label: "Names"
