@@ -1,0 +1,24 @@
+{
+  "characters": [
+    {
+      "name": "Max",
+      "age": 10
+    },
+    {
+      "name": "Nicole",
+      "age": 26
+    },
+    {
+      "name": "Myung",
+      "age": 32
+    },
+    {
+      "name": "Balto",
+      "age": 2
+    },
+    {
+      "name": "Chihiro",
+      "age": 4
+    }
+  ]
+}
