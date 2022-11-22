@@ -4,16 +4,15 @@ backend:
 
 media_folder: "public/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "public/images" # The src attribute for uploaded media will begin with /images/uploads
-
 collections:
   - name: "Characters" # Used in routes, e.g., /admin/collections/blog
-   create: true # Allow users to create new documents in this collection
-    label: "Character names" # Used in the UI
+  create: true # Allow users to create new documents in this collection
+  label: "Character names" # Used in the UI
     
-    files:
-      file: public/data/learning.json
+  files:
+    file: public/data/learning.json
    
-      fields: # The fields for each document, usually in front matter
-      - {label: name, name: name, widget: string }
-      - {label: age, name: age, widget: number }
+    fields: # The fields for each document, usually in front matter
+      - {label: Name, name: name, widget: string }
+      - {label: Age, name: age, widget: number }
       
